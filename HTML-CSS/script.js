@@ -72,7 +72,7 @@ console.log(add(5, 10));*/
     }
 }
 guess(10);*/
-function num(n) {
+/*function num(n) {
     if (n > 10) {
         return;
     }
@@ -97,4 +97,21 @@ function guess(n) {
 }
 
 let number = Math.floor(Math.random() * 100) + 1;
-guess(number);
+guess(number);*/
+let chocolate = ["dark chocolate", "milk chocolate", "white chocolate", "ruby chocolate", "vegan chocolate", "chocolate with nuts", "chocolate with caramel"];
+let sales={
+    ramu:chocolate[0],
+    somu:chocolate[1],
+    gomu:chocolate[2],
+    tomu:chocolate[3],
+    romu:chocolate[4],
+    nomu:chocolate[5],
+    yumu:chocolate[6]
+}
+console.log(sales.ramu);
+console.log(sales.somu);
+console.log(sales.gomu);
+console.log(sales.tomu);
+console.log(sales.romu);
+console.log(sales.nomu);
+console.log(sales.yumu);
