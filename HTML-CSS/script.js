@@ -31,7 +31,7 @@ console.log("500 Notes:", notes500);
 console.log("200 Notes:", notes200);
 console.log("100 Notes:", notes100);
 console.log("withdrawal amount:", 4800);*/
-for (let i = 1; i <= 30; i++) { 
+/*for (let i = 1; i <= 30; i++) { 
     console.log("day " + i + " completed");
 }
 
@@ -42,5 +42,59 @@ for (let i = 0; i <5; i ++) {
     else {
         console.log("not gifted");
     }    
+}*/
+/*function cook() {
+    console.log("cooking...");
+    console.log("cooked");
+    console.log("eating...");
+    console.log("eaten");
+    console.log("cleaning...");
+}
+for (let i = 0; i <= 5; i++) {
+    cook(i);
+
+}*/
+/*function diswash(vessels) {
+    console.log("diswashing " + vessels);
+} 
+function add(a, b) {
+    return a + b;
+}
+console.log(add(5, 10));*/
+/*function guess(number) {
+    let userGuess = Number(prompt("Enter the number"));
+    if (number === userGuess) {
+        console.log("You win");
+    } else if (number > userGuess) {
+        console.log("Too low! Try again");
+    } else {
+        console.log("Too high! Try again");
+    }
+}
+guess(10);*/
+function num(n) {
+    if (n > 10) {
+        return;
+    }
+
+    console.log(n);
+    num(n + 1);
 }
 
+num(1);
+function guess(n) {
+    let userGuess = Number(prompt("Enter a number:"));
+
+    if (userGuess == n) {
+        console.log("Congratulations! You guessed the number.");
+    } else if (userGuess < n) {
+        console.log("Too low! Try again.");
+        guess(n);
+    } else {
+        console.log("Too high! Try again..");
+        guess(n);
+    }
+}
+
+let number = Math.floor(Math.random() * 100) + 1;
+guess(number);
