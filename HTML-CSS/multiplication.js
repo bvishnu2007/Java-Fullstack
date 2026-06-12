@@ -1,2 +1,10 @@
-let greet = document.getElementByTagName("h1");
-cionsole.log(greet);
+let pen = document.getElementById("wish");
+console.log("ID:", pen);
+let mouse = document.getElementsByClassName("wishes");
+console.log("Class:", mouse);
+let cable = document.getElementsByTagName("p");
+console.log("Tag:", cable);
+let water = document.querySelector(".wishes");
+console.log("Query Selector:", water);
+let queries = document.querySelectorAll("p");
+console.log("Query Selector All:", queries);
