@@ -1,6 +1,11 @@
+let greeting = ["Good morning", "Good afternoon", "Good evening", "Good night"];
+let num =0;
+
 function greet_afternoon() {
             let text = document.getElementById("greet");
-            text.innerHTML = "Good afternoon";
+            text.innerText = greeting[num];
+            num += 1;
+            if(num>3(num=0));
         }
  function turn_on() { 
             let light = document.getElementById("light");
@@ -11,5 +16,9 @@ function greet_afternoon() {
         }            
 function change_color() {
             let colour = document.getElementById("cap");
-            colour.style.backgroundColor = "red";
+            colour.style.backgroundColor = "red"
+            let text1 = document.getElementById("data");
+            text1.innerHTML = "The background color is red";
+            let text2 = document.getElementById("data1");
+            text2.innerHTML = "The background color is red";
         }
